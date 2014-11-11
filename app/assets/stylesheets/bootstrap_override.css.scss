@@ -17,11 +17,22 @@
     overflow-x: visible;
   }
 
+  nav.navbar-default{
+  	background-color: white;
+	border: white;
+	position: fixed;
+	text-align: center;
+  }
+
 .navbar
 {
+	background-color: white;
+	border: white;
+	height: 600px;
 	max-width:300px;
 	margin-right: 0;
 	margin-left: 0;
+	position:fixed;
 }	
 
 .navbar-nav,
@@ -40,7 +51,9 @@
 .nav-image{
 	padding: 20px;
 	clear: both;
+	max-width: 100%;
 }
+
 
 
 @import "bootstrap-sprockets";
