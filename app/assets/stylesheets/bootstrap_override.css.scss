@@ -1,3 +1,5 @@
+
+
 @media (min-width: 768px) {
   .navbar-collapse {
     height: auto;
@@ -18,20 +20,20 @@
   }
 
   nav.navbar-default{
-  	background-color: white;
+  	background-color: #f4f4f4;
 	border: white;
 	position: fixed;
 	text-align: center;
+	padding: 0px;
   }
 
 .navbar
 {
-	background-color: white;
-	border: white;
-	height: 600px;
-	max-width:300px;
-	margin-right: 0;
-	margin-left: 0;
+	
+	/*border: white;*/
+	height: 100%;
+	max-width:16.5%;
+	
 	position:fixed;
 }	
 
@@ -52,6 +54,56 @@
 	padding: 20px;
 	clear: both;
 	max-width: 100%;
+}
+
+.page_head{
+	width: 100%;
+	padding:0px;
+}
+
+.no-pad{
+	padding: 0 !important;
+}
+
+.carousel.fade {
+  opacity: 1;
+}
+.carousel.fade .item {
+  -moz-transition: opacity ease-in-out .7s;
+  -o-transition: opacity ease-in-out .7s;
+  -webkit-transition: opacity ease-in-out .7s;
+  transition: opacity ease-in-out .7s;
+  left: 0 !important;
+  opacity: 0;
+  top:0;
+  position:absolute;
+  width: 100%;
+  display:block !important;
+  z-index:1;
+}
+.carousel.fade .item:first-child {
+  top:auto;
+  position:relative;
+}
+.carousel.fade .item.active {
+  opacity: 1;
+  -moz-transition: opacity ease-in-out .7s;
+  -o-transition: opacity ease-in-out .7s;
+  -webkit-transition: opacity ease-in-out .7s;
+  transition: opacity ease-in-out .7s;
+  z-index:2;
+}
+.div-pos{
+	position:relative;
+}
+
+.container-fluid{
+	padding: 0 !important;
+}
+.row{
+	width: 100%;
+	margin: 0 !important;
+	padding: 0px;
 }
 
 
