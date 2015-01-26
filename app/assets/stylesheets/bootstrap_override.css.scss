@@ -1,4 +1,18 @@
+.about_image{
+  max-height: 500px;
+  max-width: 500px;
 
+}
+
+.home-panel{
+  border: double 3px black;
+  margin-left: 50px;
+}
+
+.blogstyle{
+  border-bottom: 1px solid gray;
+  padding-bottom: 15px;
+}
 
 @media (min-width: 768px) {
   .navbar-collapse {

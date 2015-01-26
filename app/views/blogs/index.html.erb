@@ -1,0 +1,19 @@
+<h1>Listing blogs</h1>
+  
+
+<% @blogs.each do |blog| %>
+  <div class="row">
+    <div class="col-md-8 blogstyle">
+      <h3><%= blog.title %></h3><br />
+      <%= blog.body %><br />
+      <%= blog.created_at %><br />
+      <%= link_to 'Show', blog %>
+      <%= link_to 'Edit', edit_blog_path(blog) %>
+      <%= link_to 'Destroy', blog, method: :delete, data: { confirm: 'Are you sure?' } %>
+    </div>
+  </div>
+<% end %>
+
+<br />
+
+<%= link_to 'New Blog', new_blog_path %>
